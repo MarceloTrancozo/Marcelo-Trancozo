@@ -1,0 +1,33 @@
+header{
+    background-color: gray;
+}
+
+.foto-cabecalho{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgba(0, 0, 0, 0.5)
+    
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+    font-size: 40px;
+}
+
+
+.redes-sociais i{
+    width: 1.6em;
+    color: #000;
+    opacity: 0.5;
+}
