@@ -10,7 +10,7 @@ body{
 
 .imagem-cabecalho{
     width: 320px;
-    margin: 37px 25px;
+    margin: 37px 50px;
 }
 
 main{
@@ -47,6 +47,38 @@ main{
     text-align: center;
     font-size: 25px;
 }
+
+.icons-redes{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imagens-redes{
+    margin-left: 15px;
+    width: 35px;
+    height: 35px;
+    border-radius: 20%;
+}
+
+.imagens-redes:hover{
+    transform: translateY(-5px);
+    transition: ease-in-out 0.2s;
+
+}
+
+.minhas-habilidades{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 80px;
+}
+
+.titulos-minhas-habilidades{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 80px;
+}
+
 
 .container-secundario{
     background-color: #fff;
