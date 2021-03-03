@@ -28,6 +28,8 @@ main{
     margin: 20px 20px;
     border-radius: 20px;
     flex-direction: column;
+    position: sticky;
+    top: 25px;
 }
 
 .container-foto{
