@@ -24,7 +24,7 @@ main{
 .container-principal{
     background-color: #fff;
     width: 500px;
-    height: 1000px;
+    height: 650px;
     margin: 20px 20px;
     border-radius: 20px;
     flex-direction: column;
@@ -64,13 +64,12 @@ main{
 .imagens-redes:hover{
     transform: translateY(-5px);
     transition: ease-in-out 0.2s;
-
 }
 
 .minhas-habilidades{
     text-align: center;
     font-size: 25px;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 .titulos-minhas-habilidades{
@@ -79,6 +78,23 @@ main{
     margin-top: 80px;
 }
 
+.icones-habilidades{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imagens-habilidades{
+    margin-left: 15px;
+    width: 35px;
+    height: 35px;
+    border-radius: 20%;
+}
+
+.imagens-habilidades:hover{
+    transform: translateY(-5px);
+    transition: ease-in-out 0.2s;
+}
 
 .container-secundario{
     background-color: #fff;
