@@ -98,10 +98,24 @@ main{
     transition: ease-in-out 0.2s;
 }
 
+/*--------------------------------------------------------------------------------------*/
+
 .container-secundario{
     background-color: #fff;
     width: 800px;
     height: 1000px;
     margin: 20px 20px;
     border-radius: 20px;
+    padding: 25px;
 }
+
+.titulo-secundario{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.paragrafos-secundarios p{
+    margin-top: 50px;
+}
+
