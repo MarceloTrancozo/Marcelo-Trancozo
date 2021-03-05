@@ -19,6 +19,7 @@ main{
 
 .container{
     display: flex;
+    margin-top: 20px;
 }
 
 .container-principal{
@@ -48,6 +49,8 @@ main{
 .minhas-redes{
     text-align: center;
     font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 
 .icons-redes{
@@ -72,12 +75,15 @@ main{
     text-align: center;
     font-size: 25px;
     margin-top: 20px;
+    
 }
 
 .titulos-minhas-habilidades{
     text-align: center;
     font-size: 25px;
     margin-top: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 
 .icones-habilidades{
@@ -112,10 +118,33 @@ main{
 .titulo-secundario{
     font-size: 30px;
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 20px;
+    font-family: 'DotGothic16', sans-serif;
 }
 
 .paragrafos-secundarios p{
-    margin-top: 50px;
+    margin: 20px 0px 55px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
+.paragrafos-secundarios h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+footer{
+    background-color: #000;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: #fff;
+}
